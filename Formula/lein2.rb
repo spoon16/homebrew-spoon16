@@ -13,13 +13,13 @@ class Lein2 < Formula
     system "#{bin}/lein2"
   end
 
-  def caveats; <<-EOS.undent                                                                                                         
-    Dependencies installed to:                                                                                                       
-      ~/.m2/repository/                                                                                                              
-                                                                                                                                     
-    Standalone jar installed to:                                                                                                     
-       ~/.lein/                                                                                                                      
-    EOS                                                                                                                              
+  def caveats; <<-EOS.undent                                                                                                        
+    Dependencies installed to:
+      ~/.m2/repository/
+
+    Standalone jar installed to:                                                                                                    
+       ~/.lein/
+    EOS
   end
 
 end
